@@ -1,6 +1,5 @@
 {
-  "include": [
-    "node_modules/cypress",
+  "exclude": [
     "cypress/*/*.ts"
   ],
   "compilerOptions": {
@@ -22,5 +21,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react"
-  }
+  },
+  "include": [
+    "src"
+  ]
 }
